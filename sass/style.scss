@@ -1,0 +1,37 @@
+body {
+	text-align: center;
+	font-family: "Quicksand", sans-serif;
+	font-size: 20px;
+  
+}
+
+section .buttons {
+	display: float;
+	margin: 20px auto;
+}
+.newGame{
+  padding: 20px;
+}
+
+.buttonGameHide{
+  display:none;
+}
+button {
+	padding: 10px 50px;
+	max-width: 100%;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	color: #29293d;
+	background-color: #c2c2d6;
+	border: 2px solid #29293d;
+	border-radius: 4px;
+	transition: color .3s, background-color .3s;
+	cursor: pointer;
+	outline: 0!important;
+	&:hover,
+	&:active {
+		color: #02ac46;
+		background-color: #fff;
+	}
+}
